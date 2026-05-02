@@ -1,0 +1,31 @@
+=== Sample Output: Case 4 – Booking Then Cancelling (Loop Until Satisfaction) ===
+
+Date        Airline    Departure  Arrival   Stops     Time of Departure    ETA    Duration   Capacity
+01/10/2025  Indigo     Bokaro     Kolkata   Non-Stop  11:10               11:55  45min      150
+01/10/2025  Air India  Bokaro     Delhi     1 Stop    12:40               17:45  5h         150
+01/10/2025  Air India  Patna      Bokaro    Non-Stop  18:25               17:25  1h         120
+01/10/2025  Indigo     Delhi      Bokaro    1 Stop    17:15               20:35  3h 30min   100
+02/10/2025  Air India  Bokaro     Delhi     1 Stop    09:10               16:45  7h 35min   100
+02/10/2025  Indigo     Patna      Bokaro    Non-Stop  12:25               13:10  45min      130
+02/10/2025  Indigo     Delhi      Bokaro    Non-Stop  13:15               14:40  1h 25min   130
+03/10/2025  Indigo     Bokaro     Kolkata   1 Stop    08:45               12:25  3h 40min   150
+03/10/2025  Air India  Bokaro     Delhi     1 Stop    12:40               20:50  8h 10min   100
+03/10/2025  Air India  Delhi      Bokaro    1 Stop    13:15               21:05  7h 50min   100
+03/10/2025  Air India  Kolkata    Bokaro    Non-Stop  20:25               21:05  40min      120
+04/10/2025  Indigo     Bokaro     Delhi     Non-Stop  09:45               11:20  1h 35min   140
+04/10/2025  Air India  Patna      Bokaro    Non-Stop  12:10               12:55  45min      140
+05/10/2025  Air India  Kolkata    Bokaro    Non-Stop  11:10               12:00  50min      110
+05/10/2025  Indigo     Delhi      Bokaro    1 Stop    12:45               19:10  6h 25min   130
+05/10/2025  Indigo     Patna      Bokaro    Non-Stop  18:25               19:10  45min      130
+
+Note:
+If you want to book a ticket, PRESS B
+If you want to check your flight details, PRESS D
+If you want to change your flight, PRESS CH
+If you want to cancel your flight, PRESS C
+
+How can we help you? : C
+Enter your PNR no. : NEWDB03
+Your ticket has been cancelled
+Do you need any other help? (YES/NO) : NO
+I am glad I could help you.
