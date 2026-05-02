@@ -1,6 +1,10 @@
+
 # Airport-Management-System
-This project simulates a mini flight management system for a fictional airport using a pandas DataFrame as the core data structure. The dataset consists of randomly generated flight records, including fields such as flight number, departure and arrival airports, dates and times, airline, status, and a unique PNR (Passenger Name Record) for each booking. It is designed as a practice project for working with tabular data, query operations, and basic CRUD (Create, Read, Update, Delete) logic in Python.
+
+This project is a Class 12 Computer Science mini project that simulates a mini flight management system for a fictional airport using a pandas DataFrame as the core data structure. The dataset consists of randomly generated flight records, including fields such as flight number, departure and arrival airports, dates and times, airline, status, and a unique PNR (Passenger Name Record) for each booking. It is designed as a practice project for working with tabular data, query operations, and basic CRUD (Create, Read, Update, Delete) logic in Python.
 
 Using the PNR as the primary identifier, the system allows users to perform key operations on flights and bookings. Users can look up and check the details of an existing flight, including its schedule and current status. They can also book new flights by creating a fresh entry in the DataFrame with an auto-generated PNR, passenger details, and selected flight options. For existing bookings, the project supports cancelling flights (by updating status and related fields) and changing flights, such as modifying the date, time, or destination while preserving or regenerating the PNR as per the chosen logic.
 
 Internally, all operations are implemented as DataFrame transformations and lookups, demonstrating how typical airline reservation tasks can be modeled with pandas. The project can be extended with additional features like input validation, simple seat inventory checks, or exporting reports, making it a useful foundation for learning data handling and basic reservation workflows.
+
+The `Sample Outputs` folder contains example console outputs for four usage cases: booking a ticket, checking flight details, changing a flight, and booking followed by cancellation.
